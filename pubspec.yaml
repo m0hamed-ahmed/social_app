@@ -1,0 +1,32 @@
+name: social
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  shared_preferences: ^2.0.13
+  conditional_builder: ^1.0.2
+  fluttertoast: ^8.0.9
+  image_picker: ^0.8.5
+  #  Firebase
+  firebase_core: ^1.14.0
+  firebase_auth: ^3.3.12
+  cloud_firestore: ^3.1.11
+  firebase_storage: ^10.2.10
+  firebase_messaging: ^11.2.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
